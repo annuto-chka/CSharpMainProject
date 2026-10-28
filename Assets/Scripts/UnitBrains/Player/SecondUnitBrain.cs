@@ -22,7 +22,7 @@ namespace UnitBrains.Player
                 return;
             }
 
-            for (int i = 0; i < GetTemperature(); i++)
+            for (int i = 1; i < GetTemperature(); i++)
 
             {
                 var projectile = CreateProjectile(forTarget);

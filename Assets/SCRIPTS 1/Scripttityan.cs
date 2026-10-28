@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
@@ -7,17 +8,12 @@ public class NewBehaviourScript : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
-    {
-        //int i = 0;
+    { 
+        int[] numbers = new int[5];
 
-        //while (i < 10);
-        //{
-        //    i++;
-        //    Debug.Log(i);
-        // }
-        for (int a = 10 - 1; a >= 1; a--)
+        for (int i = 0; i < numbers.Length; i++)
         {
-            Debug.Log(a);
+            numbers[i] = i;
         }
 
     }
